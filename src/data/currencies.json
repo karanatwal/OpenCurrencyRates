@@ -1,0 +1,980 @@
+{
+  "USD": {
+    "symbol": "$",
+    "countryCode": "US",
+    "countryName": "United States",
+    "flag": "🇺🇸"
+  },
+  "AED": {
+    "symbol": "د.إ",
+    "countryCode": "AE",
+    "countryName": "United Arab Emirates",
+    "flag": "🇦🇪"
+  },
+  "AFN": {
+    "symbol": "؋",
+    "countryCode": "AF",
+    "countryName": "Afghanistan",
+    "flag": "🇦🇫"
+  },
+  "ALL": {
+    "symbol": "L",
+    "countryCode": "AL",
+    "countryName": "Albania",
+    "flag": "🇦🇱"
+  },
+  "AMD": {
+    "symbol": "֏",
+    "countryCode": "AM",
+    "countryName": "Armenia",
+    "flag": "🇦🇲"
+  },
+  "ANG": {
+    "symbol": "ƒ",
+    "countryCode": "CW",
+    "countryName": "Curaçao",
+    "flag": "🇨🇼"
+  },
+  "AOA": {
+    "symbol": "Kz",
+    "countryCode": "AO",
+    "countryName": "Angola",
+    "flag": "🇦🇴"
+  },
+  "ARS": {
+    "symbol": "$",
+    "countryCode": "AR",
+    "countryName": "Argentina",
+    "flag": "🇦🇷"
+  },
+  "AUD": {
+    "symbol": "A$",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "flag": "🇦🇺"
+  },
+  "AWG": {
+    "symbol": "ƒ",
+    "countryCode": "AW",
+    "countryName": "Aruba",
+    "flag": "🇦🇼"
+  },
+  "AZN": {
+    "symbol": "₼",
+    "countryCode": "AZ",
+    "countryName": "Azerbaijan",
+    "flag": "🇦🇿"
+  },
+  "BAM": {
+    "symbol": "KM",
+    "countryCode": "BA",
+    "countryName": "Bosnia and Herzegovina",
+    "flag": "🇧🇦"
+  },
+  "BBD": {
+    "symbol": "$",
+    "countryCode": "BB",
+    "countryName": "Barbados",
+    "flag": "🇧🇧"
+  },
+  "BDT": {
+    "symbol": "৳",
+    "countryCode": "BD",
+    "countryName": "Bangladesh",
+    "flag": "🇧🇩"
+  },
+  "BGN": {
+    "symbol": "лв",
+    "countryCode": "BG",
+    "countryName": "Bulgaria",
+    "flag": "🇧🇬"
+  },
+  "BHD": {
+    "symbol": ".د.ب",
+    "countryCode": "BH",
+    "countryName": "Bahrain",
+    "flag": "🇧🇭"
+  },
+  "BIF": {
+    "symbol": "Fr",
+    "countryCode": "BI",
+    "countryName": "Burundi",
+    "flag": "🇧🇮"
+  },
+  "BMD": {
+    "symbol": "$",
+    "countryCode": "BM",
+    "countryName": "Bermuda",
+    "flag": "🇧🇲"
+  },
+  "BND": {
+    "symbol": "$",
+    "countryCode": "BN",
+    "countryName": "Brunei",
+    "flag": "🇧🇳"
+  },
+  "BOB": {
+    "symbol": "Bs.",
+    "countryCode": "BO",
+    "countryName": "Bolivia",
+    "flag": "🇧🇴"
+  },
+  "BRL": {
+    "symbol": "R$",
+    "countryCode": "BR",
+    "countryName": "Brazil",
+    "flag": "🇧🇷"
+  },
+  "BSD": {
+    "symbol": "$",
+    "countryCode": "BS",
+    "countryName": "Bahamas",
+    "flag": "🇧🇸"
+  },
+  "BTN": {
+    "symbol": "Nu.",
+    "countryCode": "BT",
+    "countryName": "Bhutan",
+    "flag": "🇧🇹"
+  },
+  "BWP": {
+    "symbol": "P",
+    "countryCode": "BW",
+    "countryName": "Botswana",
+    "flag": "🇧🇼"
+  },
+  "BYN": {
+    "symbol": "Br",
+    "countryCode": "BY",
+    "countryName": "Belarus",
+    "flag": "🇧🇾"
+  },
+  "BZD": {
+    "symbol": "$",
+    "countryCode": "BZ",
+    "countryName": "Belize",
+    "flag": "🇧🇿"
+  },
+  "CAD": {
+    "symbol": "C$",
+    "countryCode": "CA",
+    "countryName": "Canada",
+    "flag": "🇨🇦"
+  },
+  "CDF": {
+    "symbol": "Fr",
+    "countryCode": "CD",
+    "countryName": "Democratic Republic of the Congo",
+    "flag": "🇨🇩"
+  },
+  "CHF": {
+    "symbol": "Fr",
+    "countryCode": "CH",
+    "countryName": "Switzerland",
+    "flag": "🇨🇭"
+  },
+  "CLP": {
+    "symbol": "$",
+    "countryCode": "CL",
+    "countryName": "Chile",
+    "flag": "🇨🇱"
+  },
+  "CNY": {
+    "symbol": "¥",
+    "countryCode": "CN",
+    "countryName": "China",
+    "flag": "🇨🇳"
+  },
+  "COP": {
+    "symbol": "$",
+    "countryCode": "CO",
+    "countryName": "Colombia",
+    "flag": "🇨🇴"
+  },
+  "CRC": {
+    "symbol": "₡",
+    "countryCode": "CR",
+    "countryName": "Costa Rica",
+    "flag": "🇨🇷"
+  },
+  "CUP": {
+    "symbol": "$",
+    "countryCode": "CU",
+    "countryName": "Cuba",
+    "flag": "🇨🇺"
+  },
+  "CVE": {
+    "symbol": "$",
+    "countryCode": "CV",
+    "countryName": "Cape Verde",
+    "flag": "🇨🇻"
+  },
+  "CZK": {
+    "symbol": "Kč",
+    "countryCode": "CZ",
+    "countryName": "Czech Republic",
+    "flag": "🇨🇿"
+  },
+  "DJF": {
+    "symbol": "Fdj",
+    "countryCode": "DJ",
+    "countryName": "Djibouti",
+    "flag": "🇩🇯"
+  },
+  "DKK": {
+    "symbol": "kr",
+    "countryCode": "DK",
+    "countryName": "Denmark",
+    "flag": "🇩🇰"
+  },
+  "DOP": {
+    "symbol": "$",
+    "countryCode": "DO",
+    "countryName": "Dominican Republic",
+    "flag": "🇩🇴"
+  },
+  "DZD": {
+    "symbol": "د.ج",
+    "countryCode": "DZ",
+    "countryName": "Algeria",
+    "flag": "🇩🇿"
+  },
+  "EGP": {
+    "symbol": "£",
+    "countryCode": "EG",
+    "countryName": "Egypt",
+    "flag": "🇪🇬"
+  },
+  "ERN": {
+    "symbol": "Nfk",
+    "countryCode": "ER",
+    "countryName": "Eritrea",
+    "flag": "🇪🇷"
+  },
+  "ETB": {
+    "symbol": "Br",
+    "countryCode": "ET",
+    "countryName": "Ethiopia",
+    "flag": "🇪🇹"
+  },
+  "EUR": {
+    "symbol": "€",
+    "countryCode": "EU",
+    "countryName": "European Union",
+    "flag": "🇪🇺"
+  },
+  "FJD": {
+    "symbol": "$",
+    "countryCode": "FJ",
+    "countryName": "Fiji",
+    "flag": "🇫🇯"
+  },
+  "FKP": {
+    "symbol": "£",
+    "countryCode": "FK",
+    "countryName": "Falkland Islands",
+    "flag": "🇫🇰"
+  },
+  "FOK": {
+    "symbol": "kr",
+    "countryCode": "FO",
+    "countryName": "Faroe Islands",
+    "flag": "🇫🇴"
+  },
+  "GBP": {
+    "symbol": "£",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "flag": "🇬🇧"
+  },
+  "GEL": {
+    "symbol": "₾",
+    "countryCode": "GE",
+    "countryName": "Georgia",
+    "flag": "🇬🇪"
+  },
+  "GGP": {
+    "symbol": "£",
+    "countryCode": "GG",
+    "countryName": "Guernsey",
+    "flag": "🇬🇬"
+  },
+  "GHS": {
+    "symbol": "₵",
+    "countryCode": "GH",
+    "countryName": "Ghana",
+    "flag": "🇬🇭"
+  },
+  "GIP": {
+    "symbol": "£",
+    "countryCode": "GI",
+    "countryName": "Gibraltar",
+    "flag": "🇬🇮"
+  },
+  "GMD": {
+    "symbol": "D",
+    "countryCode": "GM",
+    "countryName": "Gambia",
+    "flag": "🇬🇲"
+  },
+  "GNF": {
+    "symbol": "Fr",
+    "countryCode": "GN",
+    "countryName": "Guinea",
+    "flag": "🇬🇳"
+  },
+  "GTQ": {
+    "symbol": "Q",
+    "countryCode": "GT",
+    "countryName": "Guatemala",
+    "flag": "🇬🇹"
+  },
+  "GYD": {
+    "symbol": "$",
+    "countryCode": "GY",
+    "countryName": "Guyana",
+    "flag": "🇬🇾"
+  },
+  "HKD": {
+    "symbol": "$",
+    "countryCode": "HK",
+    "countryName": "Hong Kong",
+    "flag": "🇭🇰"
+  },
+  "HNL": {
+    "symbol": "L",
+    "countryCode": "HN",
+    "countryName": "Honduras",
+    "flag": "🇭🇳"
+  },
+  "HRK": {
+    "symbol": "kn",
+    "countryCode": "HR",
+    "countryName": "Croatia",
+    "flag": "🇭🇷"
+  },
+  "HTG": {
+    "symbol": "G",
+    "countryCode": "HT",
+    "countryName": "Haiti",
+    "flag": "🇭🇹"
+  },
+  "HUF": {
+    "symbol": "Ft",
+    "countryCode": "HU",
+    "countryName": "Hungary",
+    "flag": "🇭🇺"
+  },
+  "IDR": {
+    "symbol": "Rp",
+    "countryCode": "ID",
+    "countryName": "Indonesia",
+    "flag": "🇮🇩"
+  },
+  "ILS": {
+    "symbol": "₪",
+    "countryCode": "IL",
+    "countryName": "Israel",
+    "flag": "🇮🇱"
+  },
+  "IMP": {
+    "symbol": "£",
+    "countryCode": "IM",
+    "countryName": "Isle of Man",
+    "flag": "🇮🇲"
+  },
+  "INR": {
+    "symbol": "₹",
+    "countryCode": "IN",
+    "countryName": "India",
+    "flag": "🇮🇳"
+  },
+  "IQD": {
+    "symbol": "ع.د",
+    "countryCode": "IQ",
+    "countryName": "Iraq",
+    "flag": "🇮🇶"
+  },
+  "IRR": {
+    "symbol": "﷼",
+    "countryCode": "IR",
+    "countryName": "Iran",
+    "flag": "🇮🇷"
+  },
+  "ISK": {
+    "symbol": "kr",
+    "countryCode": "IS",
+    "countryName": "Iceland",
+    "flag": "🇮🇸"
+  },
+  "JEP": {
+    "symbol": "£",
+    "countryCode": "JE",
+    "countryName": "Jersey",
+    "flag": "🇯🇪"
+  },
+  "JMD": {
+    "symbol": "$",
+    "countryCode": "JM",
+    "countryName": "Jamaica",
+    "flag": "🇯🇲"
+  },
+  "JOD": {
+    "symbol": "د.ا",
+    "countryCode": "JO",
+    "countryName": "Jordan",
+    "flag": "🇯🇴"
+  },
+  "JPY": {
+    "symbol": "¥",
+    "countryCode": "JP",
+    "countryName": "Japan",
+    "flag": "🇯🇵"
+  },
+  "KES": {
+    "symbol": "Sh",
+    "countryCode": "KE",
+    "countryName": "Kenya",
+    "flag": "🇰🇪"
+  },
+  "KGS": {
+    "symbol": "с",
+    "countryCode": "KG",
+    "countryName": "Kyrgyzstan",
+    "flag": "🇰🇬"
+  },
+  "KHR": {
+    "symbol": "៛",
+    "countryCode": "KH",
+    "countryName": "Cambodia",
+    "flag": "🇰🇭"
+  },
+  "KID": {
+    "symbol": "$",
+    "countryCode": "KI",
+    "countryName": "Kiribati",
+    "flag": "🇰🇮"
+  },
+  "KMF": {
+    "symbol": "Fr",
+    "countryCode": "KM",
+    "countryName": "Comoros",
+    "flag": "🇰🇲"
+  },
+  "KRW": {
+    "symbol": "₩",
+    "countryCode": "KR",
+    "countryName": "South Korea",
+    "flag": "🇰🇷"
+  },
+  "KWD": {
+    "symbol": "د.ك",
+    "countryCode": "KW",
+    "countryName": "Kuwait",
+    "flag": "🇰🇼"
+  },
+  "KYD": {
+    "symbol": "$",
+    "countryCode": "KY",
+    "countryName": "Cayman Islands",
+    "flag": "🇰🇾"
+  },
+  "KZT": {
+    "symbol": "₸",
+    "countryCode": "KZ",
+    "countryName": "Kazakhstan",
+    "flag": "🇰🇿"
+  },
+  "LAK": {
+    "symbol": "₭",
+    "countryCode": "LA",
+    "countryName": "Laos",
+    "flag": "🇱🇦"
+  },
+  "LBP": {
+    "symbol": "ل.ل",
+    "countryCode": "LB",
+    "countryName": "Lebanon",
+    "flag": "🇱🇧"
+  },
+  "LKR": {
+    "symbol": "Rs",
+    "countryCode": "LK",
+    "countryName": "Sri Lanka",
+    "flag": "🇱🇰"
+  },
+  "LRD": {
+    "symbol": "$",
+    "countryCode": "LR",
+    "countryName": "Liberia",
+    "flag": "🇱🇷"
+  },
+  "LSL": {
+    "symbol": "L",
+    "countryCode": "LS",
+    "countryName": "Lesotho",
+    "flag": "🇱🇸"
+  },
+  "LYD": {
+    "symbol": "ل.د",
+    "countryCode": "LY",
+    "countryName": "Libya",
+    "flag": "🇱🇾"
+  },
+  "MAD": {
+    "symbol": "د.م.",
+    "countryCode": "MA",
+    "countryName": "Morocco",
+    "flag": "🇲🇦"
+  },
+  "MDL": {
+    "symbol": "L",
+    "countryCode": "MD",
+    "countryName": "Moldova",
+    "flag": "🇲🇩"
+  },
+  "MGA": {
+    "symbol": "Ar",
+    "countryCode": "MG",
+    "countryName": "Madagascar",
+    "flag": "🇲🇬"
+  },
+  "MKD": {
+    "symbol": "ден",
+    "countryCode": "MK",
+    "countryName": "North Macedonia",
+    "flag": "🇲🇰"
+  },
+  "MMK": {
+    "symbol": "K",
+    "countryCode": "MM",
+    "countryName": "Myanmar",
+    "flag": "🇲🇲"
+  },
+  "MNT": {
+    "symbol": "₮",
+    "countryCode": "MN",
+    "countryName": "Mongolia",
+    "flag": "🇲🇳"
+  },
+  "MOP": {
+    "symbol": "P",
+    "countryCode": "MO",
+    "countryName": "Macao",
+    "flag": "🇲🇴"
+  },
+  "MRU": {
+    "symbol": "UM",
+    "countryCode": "MR",
+    "countryName": "Mauritania",
+    "flag": "🇲🇷"
+  },
+  "MUR": {
+    "symbol": "₨",
+    "countryCode": "MU",
+    "countryName": "Mauritius",
+    "flag": "🇲🇺"
+  },
+  "MVR": {
+    "symbol": "Rf",
+    "countryCode": "MV",
+    "countryName": "Maldives",
+    "flag": "🇲🇻"
+  },
+  "MWK": {
+    "symbol": "MK",
+    "countryCode": "MW",
+    "countryName": "Malawi",
+    "flag": "🇲🇼"
+  },
+  "MXN": {
+    "symbol": "$",
+    "countryCode": "MX",
+    "countryName": "Mexico",
+    "flag": "🇲🇽"
+  },
+  "MYR": {
+    "symbol": "RM",
+    "countryCode": "MY",
+    "countryName": "Malaysia",
+    "flag": "🇲🇾"
+  },
+  "MZN": {
+    "symbol": "MT",
+    "countryCode": "MZ",
+    "countryName": "Mozambique",
+    "flag": "🇲🇿"
+  },
+  "NAD": {
+    "symbol": "$",
+    "countryCode": "NA",
+    "countryName": "Namibia",
+    "flag": "🇳🇦"
+  },
+  "NGN": {
+    "symbol": "₦",
+    "countryCode": "NG",
+    "countryName": "Nigeria",
+    "flag": "🇳🇬"
+  },
+  "NIO": {
+    "symbol": "C$",
+    "countryCode": "NI",
+    "countryName": "Nicaragua",
+    "flag": "🇳🇮"
+  },
+  "NOK": {
+    "symbol": "kr",
+    "countryCode": "NO",
+    "countryName": "Norway",
+    "flag": "🇳🇴"
+  },
+  "NPR": {
+    "symbol": "₨",
+    "countryCode": "NP",
+    "countryName": "Nepal",
+    "flag": "🇳🇵"
+  },
+  "NZD": {
+    "symbol": "$",
+    "countryCode": "NZ",
+    "countryName": "New Zealand",
+    "flag": "🇳🇿"
+  },
+  "OMR": {
+    "symbol": "ر.ع.",
+    "countryCode": "OM",
+    "countryName": "Oman",
+    "flag": "🇴🇲"
+  },
+  "PAB": {
+    "symbol": "B/.",
+    "countryCode": "PA",
+    "countryName": "Panama",
+    "flag": "🇵🇦"
+  },
+  "PEN": {
+    "symbol": "S/.",
+    "countryCode": "PE",
+    "countryName": "Peru",
+    "flag": "🇵🇪"
+  },
+  "PGK": {
+    "symbol": "K",
+    "countryCode": "PG",
+    "countryName": "Papua New Guinea",
+    "flag": "🇵🇬"
+  },
+  "PHP": {
+    "symbol": "₱",
+    "countryCode": "PH",
+    "countryName": "Philippines",
+    "flag": "🇵🇭"
+  },
+  "PKR": {
+    "symbol": "₨",
+    "countryCode": "PK",
+    "countryName": "Pakistan",
+    "flag": "🇵🇰"
+  },
+  "PLN": {
+    "symbol": "zł",
+    "countryCode": "PL",
+    "countryName": "Poland",
+    "flag": "🇵🇱"
+  },
+  "PYG": {
+    "symbol": "₲",
+    "countryCode": "PY",
+    "countryName": "Paraguay",
+    "flag": "🇵🇾"
+  },
+  "QAR": {
+    "symbol": "ر.ق",
+    "countryCode": "QA",
+    "countryName": "Qatar",
+    "flag": "🇶🇦"
+  },
+  "RON": {
+    "symbol": "lei",
+    "countryCode": "RO",
+    "countryName": "Romania",
+    "flag": "🇷🇴"
+  },
+  "RSD": {
+    "symbol": "дин",
+    "countryCode": "RS",
+    "countryName": "Serbia",
+    "flag": "🇷🇸"
+  },
+  "RUB": {
+    "symbol": "₽",
+    "countryCode": "RU",
+    "countryName": "Russia",
+    "flag": "🇷🇺"
+  },
+  "RWF": {
+    "symbol": "Fr",
+    "countryCode": "RW",
+    "countryName": "Rwanda",
+    "flag": "🇷🇼"
+  },
+  "SAR": {
+    "symbol": "ر.س",
+    "countryCode": "SA",
+    "countryName": "Saudi Arabia",
+    "flag": "🇸🇦"
+  },
+  "SBD": {
+    "symbol": "$",
+    "countryCode": "SB",
+    "countryName": "Solomon Islands",
+    "flag": "🇸🇧"
+  },
+  "SCR": {
+    "symbol": "₨",
+    "countryCode": "SC",
+    "countryName": "Seychelles",
+    "flag": "🇸🇨"
+  },
+  "SDG": {
+    "symbol": "ج.س.",
+    "countryCode": "SD",
+    "countryName": "Sudan",
+    "flag": "🇸🇩"
+  },
+  "SEK": {
+    "symbol": "kr",
+    "countryCode": "SE",
+    "countryName": "Sweden",
+    "flag": "🇸🇪"
+  },
+  "SGD": {
+    "symbol": "$",
+    "countryCode": "SG",
+    "countryName": "Singapore",
+    "flag": "🇸🇬"
+  },
+  "SHP": {
+    "symbol": "£",
+    "countryCode": "SH",
+    "countryName": "Saint Helena",
+    "flag": "🇸🇭"
+  },
+  "SLE": {
+    "symbol": "Le",
+    "countryCode": "SL",
+    "countryName": "Sierra Leone",
+    "flag": "🇸🇱"
+  },
+  "SLL": {
+    "symbol": "Le",
+    "countryCode": "SL",
+    "countryName": "Sierra Leone",
+    "flag": "🇸🇱"
+  },
+  "SOS": {
+    "symbol": "Sh",
+    "countryCode": "SO",
+    "countryName": "Somalia",
+    "flag": "🇸🇴"
+  },
+  "SRD": {
+    "symbol": "$",
+    "countryCode": "SR",
+    "countryName": "Suriname",
+    "flag": "🇸🇷"
+  },
+  "SSP": {
+    "symbol": "£",
+    "countryCode": "SS",
+    "countryName": "South Sudan",
+    "flag": "🇸🇸"
+  },
+  "STN": {
+    "symbol": "Db",
+    "countryCode": "ST",
+    "countryName": "São Tomé and Príncipe",
+    "flag": "🇸🇹"
+  },
+  "SYP": {
+    "symbol": "ل.س",
+    "countryCode": "SY",
+    "countryName": "Syria",
+    "flag": "🇸🇾"
+  },
+  "SZL": {
+    "symbol": "L",
+    "countryCode": "SZ",
+    "countryName": "Eswatini",
+    "flag": "🇸🇿"
+  },
+  "THB": {
+    "symbol": "฿",
+    "countryCode": "TH",
+    "countryName": "Thailand",
+    "flag": "🇹🇭"
+  },
+  "TJS": {
+    "symbol": "ЅМ",
+    "countryCode": "TJ",
+    "countryName": "Tajikistan",
+    "flag": "🇹🇯"
+  },
+  "TMT": {
+    "symbol": "m",
+    "countryCode": "TM",
+    "countryName": "Turkmenistan",
+    "flag": "🇹🇲"
+  },
+  "TND": {
+    "symbol": "د.ت",
+    "countryCode": "TN",
+    "countryName": "Tunisia",
+    "flag": "🇹🇳"
+  },
+  "TOP": {
+    "symbol": "T$",
+    "countryCode": "TO",
+    "countryName": "Tonga",
+    "flag": "🇹🇴"
+  },
+  "TRY": {
+    "symbol": "₺",
+    "countryCode": "TR",
+    "countryName": "Turkey",
+    "flag": "🇹🇷"
+  },
+  "TTD": {
+    "symbol": "$",
+    "countryCode": "TT",
+    "countryName": "Trinidad and Tobago",
+    "flag": "🇹🇹"
+  },
+  "TVD": {
+    "symbol": "$",
+    "countryCode": "TV",
+    "countryName": "Tuvalu",
+    "flag": "🇹🇻"
+  },
+  "TWD": {
+    "symbol": "NT$",
+    "countryCode": "TW",
+    "countryName": "Taiwan",
+    "flag": "🇹🇼"
+  },
+  "TZS": {
+    "symbol": "Sh",
+    "countryCode": "TZ",
+    "countryName": "Tanzania",
+    "flag": "🇹🇿"
+  },
+  "UAH": {
+    "symbol": "₴",
+    "countryCode": "UA",
+    "countryName": "Ukraine",
+    "flag": "🇺🇦"
+  },
+  "UGX": {
+    "symbol": "Sh",
+    "countryCode": "UG",
+    "countryName": "Uganda",
+    "flag": "🇺🇬"
+  },
+  "UYU": {
+    "symbol": "$",
+    "countryCode": "UY",
+    "countryName": "Uruguay",
+    "flag": "🇺🇾"
+  },
+  "UZS": {
+    "symbol": "so'm",
+    "countryCode": "UZ",
+    "countryName": "Uzbekistan",
+    "flag": "🇺🇿"
+  },
+  "VES": {
+    "symbol": "Bs.",
+    "countryCode": "VE",
+    "countryName": "Venezuela",
+    "flag": "🇻🇪"
+  },
+  "VND": {
+    "symbol": "₫",
+    "countryCode": "VN",
+    "countryName": "Vietnam",
+    "flag": "🇻🇳"
+  },
+  "VUV": {
+    "symbol": "Vt",
+    "countryCode": "VU",
+    "countryName": "Vanuatu",
+    "flag": "🇻🇺"
+  },
+  "WST": {
+    "symbol": "T",
+    "countryCode": "WS",
+    "countryName": "Samoa",
+    "flag": "🇼🇸"
+  },
+  "XAF": {
+    "symbol": "Fr",
+    "countryCode": "CM",
+    "countryName": "Central African CFA Franc (BEAC)",
+    "flag": "🇨🇲"
+  },
+  "XCD": {
+    "symbol": "$",
+    "countryCode": "KN",
+    "countryName": "East Caribbean Dollar",
+    "flag": "🇰🇳"
+  },
+  "XCG": {
+    "symbol": "ƒ",
+    "countryCode": "CW",
+    "countryName": "Netherlands Antillean Guilder",
+    "flag": "🇨🇼"
+  },
+  "XDR": {
+    "symbol": "XDR",
+    "countryCode": "UN",
+    "countryName": "Special Drawing Rights (IMF)",
+    "flag": "🇺🇳"
+  },
+  "XOF": {
+    "symbol": "Fr",
+    "countryCode": "CI",
+    "countryName": "West African CFA Franc (BCEAO)",
+    "flag": "🇨🇮"
+  },
+  "XPF": {
+    "symbol": "Fr",
+    "countryCode": "PF",
+    "countryName": "CFP Franc",
+    "flag": "🇵🇫"
+  },
+  "YER": {
+    "symbol": "﷼",
+    "countryCode": "YE",
+    "countryName": "Yemen",
+    "flag": "🇾🇪"
+  },
+  "ZAR": {
+    "symbol": "R",
+    "countryCode": "ZA",
+    "countryName": "South Africa",
+    "flag": "🇿🇦"
+  },
+  "ZMW": {
+    "symbol": "ZK",
+    "countryCode": "ZM",
+    "countryName": "Zambia",
+    "flag": "🇿🇲"
+  },
+  "ZWL": {
+    "symbol": "$",
+    "countryCode": "ZW",
+    "countryName": "Zimbabwe",
+    "flag": "🇿🇼"
+  }
+}
