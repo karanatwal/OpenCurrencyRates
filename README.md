@@ -16,6 +16,9 @@ A lightweight hobby project built with **NestJS** to demonstrate caching, dynami
 - **Path**: `/api/currencies`  
 - **Description**: Returns metadata for all supported currencies (name, symbol).
 
+**Example request:**  
+`https://opencurrencyrates.onrender.com/api/currencies`
+
 **Example response:**
 ```json
 {
@@ -46,7 +49,7 @@ A lightweight hobby project built with **NestJS** to demonstrate caching, dynami
 - **Description**: Returns exchange rates relative to the given base currency (e.g., `INR`, `EUR`).
 
 **Example request:**  
-`/api/currency/INR`
+`https://opencurrencyrates.onrender.com/api/currency/INR`
 
 `/api/currency/:base` endpoint supports two optional query parameters for flexible responses:
 
@@ -54,7 +57,7 @@ A lightweight hobby project built with **NestJS** to demonstrate caching, dynami
 - `currencies=INR,USD,SGD,...` → returns rates **only for the specified currencies**.
 
 **Example request:**  
-`/api/currency/GBP?metadata=false&currencies=INR,HKD`
+`https://opencurrencyrates.onrender.com/api/currency/GBP?metadata=false&currencies=INR,HKD`
 
 **Example response:**
 ```json
