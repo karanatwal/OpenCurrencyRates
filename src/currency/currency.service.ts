@@ -87,16 +87,21 @@ export class CurrencyService {
     const data = await this.getCached();
     const rates = data.rates || {};
     const codes = Object.keys(rates);
-    const list = codes.map((code) => {
-      const meta = (currencyMeta as any)[code] || {};
-      return {
-        countryName: meta.countryName || meta.country || null,
-        countryCode: meta.countryCode || meta.country || null,
-        symbol: meta.symbol || null,
-        flag: meta.flag || null,
-        currency: code,
-      };
-    });
+    const list = codes
+      .map((code) => {
+        const meta = (currencyMeta as any)[code] || null;
+        if (!meta) {
+          return null;
+        }
+        return {
+          countryName: meta.countryName,
+          countryCode: meta.countryCode,
+          symbol: meta.symbol,
+          flag: meta.flag,
+          currency: code,
+        };
+      })
+      .filter((item) => item !== null);
     return {
       time_last_update_unix: data.time_last_update_unix || null,
       time_next_update_unix: data.time_next_update_unix || null,
@@ -113,18 +118,23 @@ export class CurrencyService {
     const baseRate = rates[base];
     // Build array of currency objects (same shape as listCurrenciesWithMeta) plus `value` field
     const codes = Object.keys(rates);
-    const list = codes.map((code) => {
-      const meta = (currencyMeta as any)[code] || {};
-      const value = parseFloat((rates[code] / baseRate).toFixed(3)); // how many units of `code` per 1 `base`
-      return {
-        countryName: meta.countryName || meta.country || null,
-        countryCode: meta.countryCode || meta.country || null,
-        symbol: meta.symbol || null,
-        flag: meta.flag || null,
-        currency: code,
-        value,
-      };
-    });
+    const list = codes
+      .map((code) => {
+        const meta = (currencyMeta as any)[code] || null;
+        const value = rates[code] / baseRate;
+        if (!meta) {
+          return null;
+        }
+        return {
+          countryName: meta.countryName,
+          countryCode: meta.countryCode,
+          symbol: meta.symbol,
+          flag: meta.flag,
+          currency: code,
+          value,
+        };
+      })
+      .filter((item) => item !== null);
     return {
       base,
       time_last_update_unix: data.time_last_update_unix || null,
