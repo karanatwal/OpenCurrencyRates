@@ -1,11 +1,24 @@
 # OpenCurrencyRates (Currency Exchange/ Currency Converter API)
 
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+[![NestJS Version](https://img.shields.io/badge/nestjs-%5E10.0.0-green.svg)](https://nestjs.com/)
+[![GitHub stars](https://img.shields.io/github/stars/karanatwal/OpenCurrencyRates?style=social)](https://github.com/karanatwal/OpenCurrencyRates/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/karanatwal/OpenCurrencyRates?style=social)](https://github.com/karanatwal/OpenCurrencyRates/network)
+
 # 🌍 Simple Currency API
 
 A lightweight hobby project built with **NestJS** to demonstrate caching, dynamic currency conversion, and REST API design.
 
 > ✨ **Free to use for learning, college projects, or personal experiments!**  
 > ⚠️ Hosted on Render’s free tier — don’t expect high uptime or speed 😄
+
+---
+
+## ✨ Key Features
+
+✅ **Real-time exchange rates**
+🌍 **Country metadata**
+🔗 **Free and open-source**
 
 ---
 
@@ -78,6 +91,60 @@ A lightweight hobby project built with **NestJS** to demonstrate caching, dynami
 
 ---
 
+## Usage
+
+### cURL
+
+```bash
+curl "https://opencurrencyrates.onrender.com/api/currency/USD?currencies=INR,EUR"
+```
+
+### Python
+
+```python
+import requests
+
+api_url = "https://opencurrencyrates.onrender.com/api/currency/USD"
+params = {
+    "currencies": "INR,EUR"
+}
+
+response = requests.get(api_url, params=params)
+
+if response.status_code == 200:
+    data = response.json()
+    print(data)
+else:
+    print(f"Error: {response.status_code}")
+```
+
+### Kotlin (with Fuel)
+
+```kotlin
+import com.github.kittinunf.fuel.httpGet
+import com.github.kittinunf.result.Result
+
+fun main() {
+    val apiUrl = "https://opencurrencyrates.onrender.com/api/currency/USD"
+    val params = listOf("currencies" to "INR,EUR")
+
+    apiUrl.httpGet(params).responseString { _, _, result ->
+        when (result) {
+            is Result.Success -> {
+                val data = result.get()
+                println(data)
+            }
+            is Result.Failure -> {
+                val ex = result.getException()
+                println(ex)
+            }
+        }
+    }
+}
+```
+
+---
+
 ## 💡 How It Works
 
 - The app fetches exchange rate data from a public free-tier API.
@@ -121,3 +188,8 @@ They offer **higher rate limits**, **historical data**, **webhooks**, and **SLA-
 > 🎓 **Built as a learning exercise — hope it helps you too!**  
 > — Happy coding 💻
 
+---
+
+⭐ If you find this useful, please give it a star and share it!
+
+[Hire Me](https://karanatwal.github.io) | [Support Me](https://paypal.me/kandyatwal)
